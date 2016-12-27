@@ -79,6 +79,18 @@
                 <behavior>Required</behavior>
                 <field>Type</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Product_Purchase_Date__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Product_Total_Warranty_Days__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Product_Has_Extended_Warranty__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
@@ -202,6 +214,10 @@
             <layoutItems>
                 <behavior>Edit</behavior>
                 <field>Comments</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Warranty_Summary__c</field>
             </layoutItems>
         </layoutColumns>
         <style>OneColumn</style>
