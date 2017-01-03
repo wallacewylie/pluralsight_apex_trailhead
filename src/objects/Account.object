@@ -131,6 +131,17 @@
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
+        <fullName>Counter__c</fullName>
+        <externalId>false</externalId>
+        <label>Counter</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>CustomerPriority__c</fullName>
         <externalId>false</externalId>
         <label>Customer Priority</label>
@@ -309,6 +320,39 @@
     <fields>
         <fullName>Jigsaw</fullName>
         <trackFeedHistory>false</trackFeedHistory>
+    </fields>
+    <fields>
+        <fullName>MSP__c</fullName>
+        <externalId>false</externalId>
+        <label>MSP</label>
+        <picklist>
+            <picklistValues>
+                <fullName>One</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Two</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Three</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Four</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Five</fullName>
+                <default>false</default>
+            </picklistValues>
+            <restrictedPicklist>true</restrictedPicklist>
+            <sorted>false</sorted>
+        </picklist>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>MultiselectPicklist</type>
+        <visibleLines>5</visibleLines>
     </fields>
     <fields>
         <fullName>NaicsCode</fullName>
